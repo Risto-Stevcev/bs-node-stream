@@ -1,0 +1,26 @@
+{
+  "name": "bs-node-stream",
+  "version": "0.1.0",
+  "sources": [{
+    "dir" : "src",
+    "subdirs" : true
+  }, {
+    "dir" : "test",
+    "type": "dev",
+    "subdirs" : true
+  }],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": false
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+  ],
+  "bs-dev-dependencies": [
+    "bs-mocha"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}

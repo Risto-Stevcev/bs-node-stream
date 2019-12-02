@@ -1,0 +1,19 @@
+{
+  "name": "@ristostevcev/bs-node-stream",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "mocha ./lib/js/test/Test_Node_Stream.bs.js",
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Risto Stevcev",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "bs-mocha": "^1.0.0",
+    "bs-platform": "^5.2.1"
+  }
+}
